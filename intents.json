@@ -4,5 +4,9 @@
          "responses": ["Hello, Thanks for visiting", "Good to see you again", "Hi there, How can I help you ?"],
          "context_set": ""
         },
-   ]
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        }
+]
 }
