@@ -16,6 +16,9 @@
          "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
          "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
         },
-        
+        {"tag": "mopeds",
+         "patterns": ["Which mopeds do you have?", "What kinds of mopeds are there?", "What do you rent?" ],
+         "responses": ["We rent Yamaha, Piaggio and Vespa mopeds", "We have Piaggio, Vespa and Yamaha mopeds"]
+        },
 ]
 }
