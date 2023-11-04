@@ -6,7 +6,7 @@
         },
         {"tag": "goodbye",
          "patterns": ["Bye", "See you later", "Goodbye"],
-         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+         "responses": ["See you later, Thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
         },
         {"tag": "thanks",
          "patterns": ["Thanks", "Thank you", "That's helpful"],
@@ -18,16 +18,25 @@
         },
         {"tag": "mopeds",
          "patterns": ["Which mopeds do you have?", "What kinds of mopeds are there?", "What do you rent?" ],
-         "responses": ["We rent Yamaha, Piaggio and Vespa mopeds", "We have Piaggio, Vespa and Yamaha mopeds"]
+         "responses": ["We rent Chetak, Piaggio ,xpro,jolta, Vespa and Electric mopeds", "We have Chetak, Piaggio ,xpro,jolta, Vespa and Electric mopeds"]
         },
         {"tag": "payments",
-         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
-         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Do you accept cash ?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards","We accept credit cards", "we accept cash"]
         },
         {"tag": "opentoday",
          "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
-         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+         "responses": ["We're open every day from 7am-9pm", "Our open hours are 7am-9pm every day"]
         },
-        
+        {"tag": "rental",
+         "patterns": ["Can we rent a moped?", "I'd like to rent a moped", "How does this work?" ],
+         "responses": ["Are you looking to rent today or later this week?"],
+         "context_set": "rentalday"
+        },
+        {"tag": "today",
+         "patterns": ["today"],
+         "responses": ["For rentals today please call 1-800-MYMOPED", "Same-day rentals please call 1-800-MYMOPED"],
+         "context_filter": "rentalday"
+        } 
 ]
 }
