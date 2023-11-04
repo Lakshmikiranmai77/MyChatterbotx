@@ -1,5 +1,6 @@
 # MyChatterbotx
-Interactive Chat place with my Bot
+ MyChatterbox is an Interactive Chat place with my Bot.
+ Its an AI ChatBot that uses Python Tensorflow and Natural Language Processing (NLP) along side TFLearn
 
 ![image](https://github.com/Lakshmikiranmai77/MyChatterbotx/assets/57581088/f1a8ca29-710b-4b10-953e-85c9e0c7467b)
 
@@ -23,3 +24,8 @@ Main agenda of this project is to deal with these three bullet points.
     It has a comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML powered applications.
 
 --------------------------------------------------------------------------------
+# Want code.?
+Inorder to get the Source Code, Simply, Follow me on Github 😂😜
+Github - https://github.com/Lakshmikiranmai77/MyChatterbotx
+
+The More we start Analyzing, the more we Get Insights from the Data.
