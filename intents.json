@@ -20,5 +20,14 @@
          "patterns": ["Which mopeds do you have?", "What kinds of mopeds are there?", "What do you rent?" ],
          "responses": ["We rent Yamaha, Piaggio and Vespa mopeds", "We have Piaggio, Vespa and Yamaha mopeds"]
         },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        
 ]
 }
